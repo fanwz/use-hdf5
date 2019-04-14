@@ -8,8 +8,9 @@
 from all2hdf5 import *
 import pandas as pd
 
-df = pd.read_csv("test_df2.csv")
+df = pd.read_csv("test_file.csv")
 wr = DataFrame2Hdf5(df)
-wr.write_hdf5_by_np()
+wr.write_hdf5_by_np("test_file.h5")
+wr.read_hdf5("test_file.h5")
 # wr = Csv2Hdf5("test_df2.csv")
 # wr.write_hdf5_by_np("aaaa.h5")

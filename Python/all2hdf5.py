@@ -348,8 +348,6 @@ class DataFrame2Hdf5(object):
         # in-kernel selection
         sd = [row['HighestPrice'] for row in table.where("""(HighestPrice > 0)""")]
         print(sd)
-        while True:
-            pass
 
 
 # write hdf5 use pandas package
