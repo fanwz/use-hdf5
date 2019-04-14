@@ -4,6 +4,7 @@ This sample test convert Chinese A share's Level2 data in csv format to HDF5 fil
 
 The final generated file structure is as follows:
 
+![hdf5-sreenshot](https://github.com/fanwz/use-hdf5/blob/master/Python/hdf5-sreenshot.png)
 
 And use the following Python packages,you can choose the one that suits you.
 ## pytables
