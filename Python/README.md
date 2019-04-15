@@ -28,7 +28,7 @@ I add some print timestamp to the code,and the log show that as below:
 
 - In one second,3 stocks' data can be write(create dataset) to hdf5.
 
-I think the create new dataset may take most of one stock write time.
+I think the create new dataset may take most of one stock write time,and if (create dataset)write data as more as possible in one time will be save much more time.
 
 # Note:
 Because I use the stock's code(like 000001) for the dataset name in Python.When run the test,there will be warning message like below.
