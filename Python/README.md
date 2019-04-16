@@ -30,7 +30,9 @@ I add some print timestamp to the code,and the log show that as below:
 
 - About 3 stocks' data can be convert(create dataset and write data) to hdf5 in one second.
 
-I think the create new dataset may take most of one stock write time,and if (create dataset)write data as more as possible in one time will be save much more time.
+- If processed by filtered stock list,such as filtering out about 1800 stocks,It takes about 10mins and hdf5 file size is about 280MB.
+
+So I think switching in dataset and write a little data one by one may take most of time of converting all stock data,and if (create dataset)write data as more as possible in one time will be save much more time.
 
 # Note:
 Because I use the stock's code(like 000001) for the dataset name in Python.When run the test,there will be warning message like below.
